@@ -1,18 +1,85 @@
-div#wrapper{
-    width: 990px;
-    margin: auto;
+div#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
     background: #FFF;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
 }
 
-h1{
-    font-family: Georgia, serif;
+/*link styles*/
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    padding-bottom: .1em;
+}
+
+a:link {
+    color: #C00;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:focus, a:hover {
+    color: #921A66;
+}
+
+a:active {
+    color: #F00;
+}
+
+h1 {
     margin: auto;
     text-align: center;
 }
 
-#welcome img{
+#nav {
+    overflow: hidden;
+    width: 100%;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#nav ul li{
     float: left;
-    margin: 0 6px 6px 0;
+}
+
+#nav ul li a{
+    display: block;
+    padding: .5em;
+    border: 2px solid BLACK;
+    border-radius: .5em;
+    margin: .25em;
+    font-weight: bold;
+    float: left;
+    transition-property: background-color;
+    transition-property: color;
+}
+
+a.location{
+    background-color: darkblue;
+    color: white;
+}
+
+#nav ul a:hover, #nav ul a:focus {
+    background-color: darkblue;
+    color: white;
+}
+
+#welcome {
+    clear: both;
+    overflow: hidden;
+}
+
+#welcome img{
+    margin: 8px 39%;
 }
 
 #welcome p{
@@ -20,12 +87,3 @@ h1{
     margin: 0 2em;
 }
 
-#nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#nav ul li{
-    float: left;
-}
