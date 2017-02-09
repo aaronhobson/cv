@@ -1,0 +1,31 @@
+div#wrapper{
+    width: 990px;
+    margin: auto;
+    background: #FFF;
+}
+
+h1{
+    font-family: Georgia, serif;
+    margin: auto;
+    text-align: center;
+}
+
+#welcome img{
+    float:left;
+    margin: 0 6px 6px 0;
+}
+
+#welcome p{
+    float: left;
+    margin: 0 2em;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav ul li{
+    float: left;
+}
