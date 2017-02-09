@@ -11,7 +11,7 @@ h1{
 }
 
 #welcome img{
-    float:left;
+    float:clear;
     margin: 0 6px 6px 0;
 }
 
